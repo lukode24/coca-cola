@@ -1,0 +1,146 @@
+/* ============= PARAMETTRE GENERAL ============= */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* ============= MENU ============= */
+
+.menu
+{
+    background: #F50D0D;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* .menu ul
+{
+    display: flex;
+} */
+
+.menu ul li
+{
+    display: inline-block;
+}
+
+.menu ul li a
+{
+    color: white;
+    padding: 8px 16px;
+    display: block;
+}
+
+/* ============= Section Image Principale ============= */
+
+.banner
+{
+    background-image: url("./img-coca-cola/banniere.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    margin-bottom: 40px;
+}
+
+.banner h1
+{
+    font-size: 100px;
+    text-align: center;
+}
+
+/* ============= Section PUB ============= */
+
+.boxes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-bottom: 10px; */
+}
+
+.box
+{
+    width: 32%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .box
+    {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+/* ============= Section BAKGROUND RED ============= */
+
+.bg-red
+{
+    background: #F50D0D;
+    width: 100%;
+    padding: 40px 80px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .bg-red
+    {
+        width: 100%;
+    }
+}
+
+/* ============= Section COCA-COLA ============= */
+
+.boxes2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+}
+
+.box2
+{
+    width: 20%;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .box2
+    {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+}
